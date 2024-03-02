@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap');
+
+*{
+    color: white;
+     background-image: url("https://media.istockphoto.com/id/1363632948/photo/real-star-background.jpg?s=2048x2048&w=is&k=20&c=LFj2YZcpXwWdPsCoQgJzMardgula0MWc8-Oz7r06zV8="); 
+}
+
+#header {
+    background-color:silver;
+    padding: 20px;
+    display: flex; 
+    justify-content: center; 
+}
+
+#header ul {
+    list-style-type: none; 
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#header ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Kode Mono', monospace; 
+}
+
+#header ul li a:hover {
+    color: #ffc107;
+}
+
+/* Style for images */
+.img-container {
+    max-width: 100%;
+    margin: 40px auto;
+    margin-top: 70px;
+    text-align: center; 
+}
+
+/* About section styles */
+
+#about {
+   
+    padding: 30px; 
+    color: white;
+    text-align: center;
+    font-family: 'Kode Mono', monospace; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+    transition: background-color 0.3s; 
+}
+#about:hover {
+    background-color:silver; /* Change background color on hover */
+
+}
+
+.about p{
+   margin-left: 60px;
+   margin-right: 60px;
+}
+p{
+    font-size: 24px;
+}
+
+/* Project title styles */
+
+
+#projects h1 {
+    font-size: 24px;
+    margin-bottom: 49px;
+    color: white;
+    text-align: center;
+    font-family: 'Kode Mono', monospace;
+}
+.project:hover{
+    background-color: silver;
+}
+
+/* Project section styles */
+#work {
+    padding: 20px 0;
+    display: flex; 
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch; 
+}
+
+/* Individual project styles */
+.airline,
+.shopping,
+.voting {
+    margin-right: 20px; 
+}
+.airline:hover{
+    background-color: silver;
+}
+.shopping:hover{
+    background-color:silver;
+}
+.voting:hover{
+ background-color: silver;
+}
+
+/* Ensure the last project doesn't have right margin */
+.voting:last-child {
+    margin-right: 0;
+}
+
+/* Project title styles */
+.project {
+    padding: 50px; 
+    color: white; 
+    text-align: center;
+    font-family: 'Kode Mono', monospace; 
+}
+
+.project h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+}
+/* Project image styles */
+.project img {
+    max-width: 200px; 
+    height: auto; 
+       border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px; 
+}
+
+/* Contact section styles */
+#contact {
+    color: white; 
+    padding: 20px; 
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    font-family: 'Kode Mono', monospace;
+}
+
+#contact form {
+    width: 100%;
+    max-width: 400px; 
+    margin: 45px;
+    font-family: 'Kode Mono', monospace;
+}
+
+#contact label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-family: 'Kode Mono', monospace;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="number"],
+#contact textarea {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #444; 
+    color: white; 
+    transition: border-color 0.3s; 
+}
+
+#contact input[type="text"]:focus,
+#contact input[type="email"]:focus,
+#contact input[type="number"]:focus,
+#contact textarea:focus {
+    border-color: #fff; 
+}
+
+/* Footer styles */
+.footer {
+    color: #fff; 
+    padding: 20px;
+    text-align: center; 
+    font-size: 14px; 
+    font-family: Arial, sans-serif; 
+}
+
+.footer:hover {
+    background-color:silver;
+}
