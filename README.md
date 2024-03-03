@@ -3,7 +3,7 @@ offerletter link :https://drive.google.com/file/d/1wNOqeBcfmdmq4M9L5nk0YSba06OtG
 I am currently working on a webpage for my web development internship at codsoft using HTML and CSS. This is my first task in the internship.
 
 
-Level one Tasks
+Level 1
 ***********************************************************************************************************************
 
 ##Task one:
@@ -58,7 +58,7 @@ done with basic knowledge of these technologies..
 
 -------------------------------------------------------------------------------------------------------------------------------
 
-Level Two Tasks
+Level  2
 
 ***************************************************************************************************************************************
 Task one :
